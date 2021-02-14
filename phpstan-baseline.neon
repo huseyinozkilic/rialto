@@ -281,16 +281,6 @@ parameters:
 			path: src/php/ProcessSupervisor.php
 
 		-
-			message: "#^Method Nesk\\\\Rialto\\\\ProcessSupervisor\\:\\:readNextProcessValue\\(\\) has no return typehint specified\\.$#"
-			count: 1
-			path: src/php/ProcessSupervisor.php
-
-		-
-			message: "#^Variable \\$startTimestamp might not be defined\\.$#"
-			count: 1
-			path: src/php/ProcessSupervisor.php
-
-		-
 			message: "#^Property Nesk\\\\Rialto\\\\Exceptions\\\\Node\\\\FatalException\\:\\:\\$process type has no value type specified in iterable type Symfony\\\\Component\\\\Process\\\\Process\\.$#"
 			count: 1
 			path: src/php/Exceptions/Node/FatalException.php
